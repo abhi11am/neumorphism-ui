@@ -7,9 +7,9 @@ body {
 }
 
 .neumorphism-ui {
-  @apply shadow-inner shadow-[5px_5px_9px_0px_#d2cfcf,_-5px_-5px_9px_0px_#ffffff];
+  @apply text-[#7b90fd] bg-[#DEE5F2] shadow-[3.2px_3.2px_6.4px_0_#99b5d2,-3.2px_-3.2px_6.4px_0_#FFFFFF];
 }
-/* 
-.neumorphism-ui:active {
-  @apply shadow-inner;
+
+/* .neumorphism-ui:active {
+  @apply text-[#7b90fd] bg-[#DEE5F2] shadow-[inset_3.2px_3.2px_6.4px_0_#99b5d2,-3.2px_-3.2px_6.4px_0_#FFFFFF];
 } */
