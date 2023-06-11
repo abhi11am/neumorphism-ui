@@ -1,26 +1,15 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #DEE5F2;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.neumorphism-ui {
+  @apply shadow-inner shadow-[5px_5px_9px_0px_#d2cfcf,_-5px_-5px_9px_0px_#ffffff];
 }
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+/* 
+.neumorphism-ui:active {
+  @apply shadow-inner;
+} */
